@@ -1,0 +1,16 @@
+[package]
+name = "dynet"
+version = "0.1.0"
+authors = ["Junjie Yang <yang@junjie.io>"]
+description = "Rust language bindings for DyNet."
+documentation = "..."
+repository = "https://github.com/xbainbain/dynet-rs"
+readme = "README.md"
+keywords = ["DyNet", "bindings", "neural networks", "deep learning"]
+categories = ["...", "..."]
+license = "MIT"
+
+[dependencies]
+dynet-sys = { path = "dynet-sys", version = "0.1.0" }
+
+[workplace]

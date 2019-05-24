@@ -1,0 +1,14 @@
+[package]
+name = "dynet-sys"
+version = "0.1.0"
+authors = ["Junjie Yang <yang@junjie.io>"]
+license = "MIT"
+
+[dependencies]
+
+
+[build-dependencies]
+bindgen = "0.37.0"
+
+[features]
+gpu = []
